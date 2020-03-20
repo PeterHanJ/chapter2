@@ -1,0 +1,12 @@
+###############################################
+Mysql command
+###############################################
+
+mysql -u<userid> -p<password>
+
+show databases;
+use <dbname>;
+show tables;
+
+#exectue sql files
+source <path>/<sql_source_file>
