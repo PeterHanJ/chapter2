@@ -10,3 +10,6 @@ show tables;
 
 #exectue sql files
 source <path>/<sql_source_file>
+
+#show table structure
+describe <table_name>;
