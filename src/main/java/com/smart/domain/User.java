@@ -1,4 +1,4 @@
-package com.smart.dao;
+package com.smart.domain;
 
 import java.io.Serializable;
 import java.sql.Date;
