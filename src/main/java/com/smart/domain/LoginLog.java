@@ -1,27 +1,27 @@
 package com.smart.domain;
 
 import java.io.Serializable;
-import java.sql.Date;
+import java.util.Date;
 
 public class LoginLog implements Serializable {
-    private String loginLogId;
-    private String userId;
+    private int loginLogId;
+    private int userId;
     private String ip;
-    private Date loginDatetime;
+    private Date loginDate;
 
-    public String getLoginLogId() {
+    public int getLoginLogId() {
         return loginLogId;
     }
 
-    public void setLoginLogId(String loginLogId) {
+    public void setLoginLogId(int loginLogId) {
         this.loginLogId = loginLogId;
     }
 
-    public String getUserId() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setUserId(String userId) {
+    public void setUserId(int userId) {
         this.userId = userId;
     }
 
@@ -33,11 +33,11 @@ public class LoginLog implements Serializable {
         this.ip = ip;
     }
 
-    public Date getLoginDatetime() {
-        return loginDatetime;
+    public Date getLoginDate() {
+        return loginDate;
     }
 
-    public void setLoginDatetime(Date loginDatetime) {
-        this.loginDatetime = loginDatetime;
+    public void setLoginDate(Date loginDate) {
+        this.loginDate = loginDate;
     }
 }

@@ -1,22 +1,22 @@
 package com.smart.domain;
 
 import java.io.Serializable;
-import java.sql.Date;
+import java.util.Date;
 
 
 public class User implements Serializable {
-    private String userId;
+    private int userId;
     private String userName;
     private int credits;
     private String password;
     private Date lastVisit;
     private String lastIp;
 
-    public String getUserId() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setUserId(String userId) {
+    public void setUserId(int userId) {
         this.userId = userId;
     }
 
